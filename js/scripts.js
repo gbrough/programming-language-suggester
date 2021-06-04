@@ -65,7 +65,9 @@ $(document).ready(function() {
     $("#output5").text(survey5);
     event.preventDefault();
   });
-  $(".clickable1").click(function() {
+});
+$(document).ready(function() {
+  $(".output1").click(function() {
     $("#answer1-showing").toggle();
     $("#answer1-hidden").toggle();
   });

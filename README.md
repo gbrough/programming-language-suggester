@@ -1,6 +1,6 @@
 ### Fixes
-  hide suggestion until revealed
   styling
+  update conten
   
 ## How to determine what programming language to learn
 

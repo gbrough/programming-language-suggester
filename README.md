@@ -1,8 +1,4 @@
-### Fixes
-  -Header
-  -button
-  
-## How to determine what programming language to learn
+### How to determine what programming language to learn
 
 ### Authored by:  Garrett Broughton
 
@@ -32,7 +28,10 @@
     4. git push "type-nickname" main
   - This will create a pull request, that will be reviewed for approval. Once the code is approved, the changes will be merged.
   - Thank you for contributing!
-    
+
+### Link to Github Page: 
+<a href="https://gbrough.github.io/programming-language-suggester/">GitHub Page</a>
+
 ### License 
 [MIT license](https://opensource.org/licenses/MIT) others are allowed modify or reuse this project.
 

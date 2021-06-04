@@ -1,8 +1,4 @@
-### Fixes
-  -Header
-  -button
-  
-## How to determine what programming language to learn
+### How to determine what programming language to learn
 
 ### Authored by:  Garrett Broughton
 
@@ -10,6 +6,7 @@
   -   This is a webpage to help people choose what language they should learn.
   -   HTML: "Build with HTML tags including p,h,div, and span."
   -   CSS: "Added CSS Styling for formatting"
+  -   Bootstrap: "Bootstrap used for styling the header and footer of the page."
   -   jQuery: "Form gathers input from the user."Uses branching to return the result."
 
 ### Technologies Used:

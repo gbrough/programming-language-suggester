@@ -14,41 +14,52 @@
     <p>Are you unsure what programming langage to learn? Try these questions to find out.</p>
 
     <form id="language">
-      <label for="demand">Language Advantages</label>
-      <select id="demand">
-        <option value="learning">Ease of Learning</option>
-        <option value="performance">Performance</option>
-      </select>
-      
-      <label for="purpose">Language Purpose</label>
-      <select id="purpose">
-        <option value="front-end">Front-End</option>
-        <option value="back-end">Back-End</option>
-      </select>
+      <div>
+        <label for="demand">Language Advantages</label>
+        <select id="demand">
+          <option value="learning">Ease of Learning</option>
+          <option value="performance">Performance</option>
+        </select>
+      </div>
 
-      <label for="size">Business Size</label>
-      <select id="size">
-        <option value="small">Small Business</option>
-        <option value="large">Large Business</option>
-      </select>
+      <div>
+        <label for="purpose">Language Purpose</label>
+        <select id="purpose">
+          <option value="front-end">Front-End</option>
+          <option value="back-end">Back-End</option>
+        </select>
+      </div>    
 
-      <label for="industry">Industry</label>
-      <select id="industry">
-        <option value="tech">Tech</option>
-        <option value="retail">Retail</option>
-      </select>
+      <div>
+        <label for="size">Business Size</label>
+        <select id="size">
+          <option value="small">Small Business</option>
+          <option value="large">Large Business</option>
+        </select>  
+      </div>
 
-      <label for="interest">Personal Interest</label>
-      <select id="interest">
-        <option value="software">Software Project</option>
-        <option value="hardware">Hardware Project</option>
-      </select>
+      <div>
+        <label for="industry">Industry</label>
+        <select id="industry">
+          <option value="tech">Tech</option>
+          <option value="retail">Retail</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="interest">Personal Interest</label>
+        <select id="interest">
+          <option value="software">Software Project</option>
+          <option value="hardware">Hardware Project</option>
+        </select>
+      </div>
+
 
       <button type="submit" class="btn btn-primary">Which Language?</button>
     </form>
 
     <div id="result">
-      <p>Our suggestion is <span id="person"></span> . We hope you enjoy the learning process.</p>
+      <p>Our suggestion is <span id="output"></span> . We hope you enjoy the learning process.</p>
     </div>
   </div>  
 </body>

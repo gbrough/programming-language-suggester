@@ -36,8 +36,6 @@ $(document).ready(function() {
     const industry = $("select#industry").val();
     const interest = $("select#interest").val();
     const language = getLanguage(demand, purpose, size, industry, interest)
-      
- //   alert('our suggestion is: ' + language)
     $("#output").text(language);
 
     event.preventDefault();

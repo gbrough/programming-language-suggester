@@ -1,30 +1,14 @@
 //Business Logic
 
 function getLanguage(demand, purpose, size, industry, interest) {
-  let language = ''
+  let survey1 = ''
 
   if (demand === "learning") {
-    language = "Java Script"
+    survey1 = "JavaScript"
   } else if (demand === "performance") {
-    language = "C++"
-  } else if (purpose === "front-end") {
-    language = "Java Script"
-  } else if (purpose === "back-end") {
-    language = "Python"
-  } else if (size === "small") {
-    language = "Java Script"
-  } else if (size === "large") {
-    language = "Python"
-  } else if (industry === "tech") {
-    language = "JavaScript"
-  } else if (industry === "retail") {
-    language = "Python"
-  } else if (interest === "software") {
-    language = "Java Script"
-  } else if (interest === "hardware") {
-    language = "C++"
-  }
-  return language
+    survey1 = "C++"
+  } 
+  return survey1
 }
 
 //UI Logic
@@ -35,8 +19,9 @@ $(document).ready(function() {
     const size = $("select#size").val();
     const industry = $("select#industry").val();
     const interest = $("select#interest").val();
-    const language = getLanguage(demand, purpose, size, industry, interest)
-    $("#output").text(language);
+    const survey1 = getLanguage(demand, purpose, size, industry, interest)
+    $("#output").text(survey1);
+    $("#output2").text(survey2);
 
     event.preventDefault();
   });

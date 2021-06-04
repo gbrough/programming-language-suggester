@@ -24,8 +24,6 @@ function getLanguage(demand,purpose,size,industry,interest) {
   } 
   return survey
 }
-
-
 //UI Logic
 $(document).ready(function() {
   $("form#language").submit(function(event) {
@@ -37,5 +35,11 @@ $(document).ready(function() {
     const survey = getLanguage(demand,purpose,size,industry,interest)
     $("#output").text(survey);
     event.preventDefault();
+  });
+});
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
   });
 });

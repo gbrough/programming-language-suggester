@@ -13,7 +13,7 @@
 
     <p>Try these questions to find out. Choose one option at a time, then reset the form to try another option.</p>
 
-    <from id="language">
+    <form id="language">
       <div>
         <label for="demand">1. Language Advantages</label>
         <select id="demand">
@@ -58,15 +58,22 @@
           <option value="hardware">Hardware Project</option>
         </select>
       </div>
-      <div class="walrus-showing">
-
+      <!-- <button type="submit" class="btn btn-primary">Suggestion</button> -->
+      <!-- <input type="reset" class="btn btn-primary"> -->
+      <!-- <p>Our suggestion is <span id="output"></span></p> -->
+      
+      <div id="walrus-hidden">
+        <!-- <p>Want to see your result <span class="clickable">Suggestion</span> to see the surprise!</p> -->
+        <button type="submit" span class="clickable">Suggestion</button>
       </div>
-
-      <button type="submit" class="btn btn-primary">Suggestion</button>
-      <input type="reset" class="btn btn-primary">
-      <p>Our suggestion is <span id="output"></span></p>
-
+      
+      <div id="walrus-showing">
+        <!-- <p>Our suggestion is <span class="clickable">Reset</span> Click here to reset</p> -->
+        <p>Our suggestion is <span id="output"></span></p>
+        <input type="reset" class="btn btn-primary">
+      </div>
     </form>
+
   </div>  
 </body>
 </html>

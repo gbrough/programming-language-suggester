@@ -36,10 +36,9 @@ $(document).ready(function() {
     $("#output").text(survey);
     event.preventDefault();
   });
-});
-$(document).ready(function() {
   $(".clickable").click(function() {
     $("#result-showing").toggle();
     $("#result-hidden").toggle();
   });
 });
+

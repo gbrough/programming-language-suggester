@@ -14,3 +14,7 @@
 .clickable:hover {
   text-decoration: underline;
 }
+body {
+  color: white;
+  background-image: url("https://wallpapercave.com/wp/wp2945094.jpg");
+}

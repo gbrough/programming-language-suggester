@@ -1,6 +1,6 @@
 ### Fixes
-  styling
-  update conten
+  -Header
+  -button
   
 ## How to determine what programming language to learn
 

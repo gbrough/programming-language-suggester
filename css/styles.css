@@ -1,5 +1,6 @@
 .container p {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #result-showing {
@@ -8,7 +9,9 @@
 
 .clickable {
   cursor: pointer;
-  color: #0088cc;
+  color: rgb(255, 255, 255);
+  background-color: rgb(53, 53, 241);
+  padding: 10px;
 }
 
 .clickable:hover {
@@ -16,5 +19,5 @@
 }
 body {
   color: white;
-  background-image: url("https://wallpapercave.com/wp/wp2945094.jpg");
+  background-color: rgb(79, 79, 79);
 }

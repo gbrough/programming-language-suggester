@@ -1,28 +1,14 @@
 //Business Logic
 function getLanguage(demand,purpose,size,industry,interest) {
-  let survey = ''
-  if (demand === "learning") {
-    survey = "JavaScript"
-  } else if (demand === "performance") {
-    survey = "C++"
-  } else if (purpose === "front-end") {
-    survey = "PHP"
-  } else if (purpose === "back-end") {
-    survey = "SQL"
-  } else if (size === "small") {
-    survey = "Ruby"
-  } else if (size === "large") {
-    survey = "C#"
-  } else if (industry === "tech") {
-    survey = "Swift"
-  } else if (industry === "other") {
-    survey = "Java"
-  } else if (interest === "software") {
-    survey = "Python"
-  } else if (interest === "hardware") {
-    survey = "Assembly"
-  } 
-  return survey
+  let survey = '';
+  if (demand === "learning" && purpose === "front-end" && size === "small" && industry === "tech" && interest === "software") {
+    survey = "JavaScript";
+  } else if (demand === "performance" && purpose === "back-end" && size === "large" && industry === "other" && interest === "hardware") {
+    survey = "Python";
+  } else {
+    survey = "C++";
+  }
+  return survey;
 }
 //UI Logic
 $(document).ready(function() {
@@ -41,4 +27,3 @@ $(document).ready(function() {
     $("#result-hidden").toggle();
   });
 });
-

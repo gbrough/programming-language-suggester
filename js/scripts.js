@@ -6,7 +6,7 @@ function getLanguage(demand,purpose,size,industry,interest) {
   } else if (demand === "performance" && purpose === "back-end" && size === "large" && industry === "other" && interest === "hardware") {
     survey = "Python";
   } else if (demand === "choose" && purpose === "choose" && size === "choose" && industry === "choose" && interest === "choose")
-    survey = '"No option choosen, please choose one."'
+    survey = '"No option chosen, please choose one."'
   else {
     survey = "C++";
   }

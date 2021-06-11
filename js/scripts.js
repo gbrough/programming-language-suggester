@@ -1,15 +1,14 @@
 //Business Logic
 function getLanguage(demand,purpose,size,industry,interest) {
-  let survey = ''
+  let survey = '';
   if (demand === "learning" && purpose === "front-end" && size === "small" && industry === "tech" && interest === "software") {
-    survey = "JavaScript"
+    survey = "JavaScript";
   } else if (demand === "performance" && purpose === "back-end" && size === "large" && industry === "other" && interest === "hardware") {
-    survey = "Python"
+    survey = "Python";
   } else {
-    survey = "C++"
+    survey = "C++";
   }
-
-  return survey
+  return survey;
 }
 //UI Logic
 $(document).ready(function() {

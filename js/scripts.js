@@ -5,7 +5,9 @@ function getLanguage(demand,purpose,size,industry,interest) {
     survey = "JavaScript";
   } else if (demand === "performance" && purpose === "back-end" && size === "large" && industry === "other" && interest === "hardware") {
     survey = "Python";
-  } else {
+  } else if (demand === "choose" && purpose === "choose" && size === "choose" && industry === "choose" && interest === "choose")
+    survey = '"No option choosen, please choose one."'
+  else {
     survey = "C++";
   }
   return survey;
@@ -27,3 +29,4 @@ $(document).ready(function() {
     $("#result-hidden").toggle();
   });
 });
+
